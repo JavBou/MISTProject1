@@ -1,1 +1,1 @@
-# MISTProject1
+# MIST Group Project 1
