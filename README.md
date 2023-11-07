@@ -5,8 +5,6 @@
 
 cs_g5p1
 
-test
-
 ## Team Members
 
 1. Javi Bou [@JavBou](https://github.com/Javbou)
