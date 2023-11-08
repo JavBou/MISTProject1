@@ -27,8 +27,9 @@ Pretend you are the owner/operator of a football club needing to build a relatio
 ### ChatGPT then gave the following response:
 
 Certainly! As the owner/operator of a football club, here's an overview of my business to help the MIST 4610 class students in building a relational database.
+
 Players:
-Attributes: Player ID, Name, Position, Date of Birth, Nationality
+- Attributes: Player ID, Name, Position, Date of Birth, Nationality
 - Relationships: Many-to-One with Contracts, Many-to-Many with Teams
 
 Teams:
