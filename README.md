@@ -255,7 +255,7 @@ This query can mainly be used to understand the relationship between the amount 
 
 ![Query 8](https://i.imgur.com/R6bfJYE.png)
 
-Query 8 shows the amount of teams that held a practice on November 5th, 2023.
+Query 8 shows the amount of teams that held a practice on September 2nd, 2023.
 
 This is a more simplified query showing us the teams that held a practice on a specific date, in this case November 5th, 2023. This query can easily be altered to different dates to see which teams have held practices on specific dates. This information can also be used to establish trends based on teams that prefer to hold practice on specific dates.
 
