@@ -18,7 +18,7 @@ cs_g5p1
 Our task was to construct a relational database for a football club. Our central entity, teams, represents the numerous teams that are formed within the football club. These teams are comprised of players, coaches, and sponsors, all of whom participate in numerous matches. We're also modeling other aspects surrounding the teams, such as social media, injuries, etc. Our goal is to accurately model these various relationships, generating sample data sets, and populating our table and attributes with the same data to showcase the performance and effectiveness of the model. We're also aiming to perform various queries on this data model to highlight key metrics and insights surrounding the operations and functionality of the football club.
 ## Chat GPT
 
-To get a framework for our data model, we utilized chat GPT to generate initial concepts for tables, attributes, and relationships, surrounding a hypothetical football club. While we did utilize many of ChatGPT's entities and attributes in our final model, we made some edits with regards to the types of tables used (ie: we did not include the travel itineraries entity) and recommended relationships (ie: rather than having a many to many with medical staff and players, we created a one to many with between medical staff and teams).
+To get a framework for our data model, we utilized chat GPT to generate initial concepts for tables, attributes, and relationships, surrounding a hypothetical football club. While we did utilize many of ChatGPT's entities and attributes in our final model, we made some edits with regard to the types of tables used (ie: we did not include the travel itineraries entity) and recommended relationships (ie: rather than having a many to many with medical staff and players, we created a one to many with between medical staff and teams).
 
 ### The input prompt is as follows:
 
@@ -199,9 +199,9 @@ Finally, teams have multiple Sponsors, Medical Staff, Social Media Accounts, and
 
 ![Query 1](https://i.imgur.com/cmhEcKn.png)
 
-Query 1 lists the players full names (in the form of last, first) their respectives positions, as well as their salaries. Only players who's salaries are higher than the total average salary are displayed. The salaries are then organized from highest to lowest.
+Query 1 lists the players' full names (in the form of last, first), their respective positions, as well as their salaries. Only players whose salaries are higher than the total average salary are displayed. The salaries are then organized from highest to lowest.
 
-This query allows for coaches and other team administrators to know which players are being paid more than others and by how much. This can be useful to see if any players are being overpaid, or to detect and standout players that are deserving of their higher salaries. Listing the results from highest to lowest salary make it easier to view these detials. Grouping the results by position can also be useful to see if a particular position is being paid more than others regardless of performance.
+This query allows for coaches and other team administrators to know which players are being paid more than others and by how much. This can be useful to see if any players are being overpaid, or to detect and standout players that are deserving of their higher salaries. Listing the results from highest to lowest salary makes it easier to view these details. Grouping the results by position can also be useful to see if a particular position is being paid more than others regardless of performance.
 
 ### Query 2
 
@@ -215,17 +215,17 @@ This query is extremely useful in finding commonalities between player's positio
 
 ![Query 3](https://i.imgur.com/aRdDCpn.png)
 
-Query 3 lists all the teams that have an Instagram account with a follwer count greater than the average amungst all teams.
+Query 3 lists all the teams that have an Instagram account with a follower count greater than the average among all teams.
 
-This query can be used to track different Instagram trends across the different teams in the league. Coaches and team administrators can track which teams have a higher social media presence than others, which can be used to establish a possible relationship between team/player performance and social media following. It can also be used to indentify coorelations between winrates, salary, and other key metrics.
+This query can be used to track different Instagram trends across the different teams in the league. Coaches and team administrators can track which teams have a higher social media presence than others, which can be used to establish a possible relationship between team/player performance and social media following. It can also be used to identify correlations between win rates, salary, and other key metrics.
 
 ### Query 4
 
 ![Query 4](https://i.imgur.com/OngUAAp.png)
 
-This query lists all the teams in the league along with their combined social media folllowers and the amount of medical staff that they have.
+This query lists all the teams in the league along with their combined social media followers and the amount of medical staff that they have.
 
-This query is useful in learning how many medical personnel there are in each team. The information from this query can be used in determining coorelations between the amount of medical staff that a team has along with factors such as injuries, win rate, and overall player performance. Moreover, the information found in this query can tie the amount of social media followers a team has to the amount of medical staff they have. Using this, you can find a possible coorelation between social media presence and medical staff.
+This query is useful in learning how many medical personnel there are in each team. The information from this query can be used in determining correlations between the amount of medical staff that a team has along with factors such as injuries, win rate, and overall player performance. Moreover, the information found in this query can tie the amount of social media followers a team has to the amount of medical staff they have. Using this, you can find a possible correlation between social media presence and medical staff.
 
 ### Query 5
 
@@ -241,7 +241,7 @@ This query can be used when team coaches are determining jersey color. They'd be
 
 Query 6 lists all the distinct sponsor names and their respective donation amounts for teams that have less than three sponsors.
 
-This query is useful in detemining which teams not only have a low amount of sponsors, but if those respective sponsors tend to give higher or lower amounts depending on the total amount of sponsors that a team has. This query can also be used in determing possible relationships between number of sponsors and player performance or salary.
+This query is useful in determining which teams not only have a low amount of sponsors, but if those respective sponsors tend to give higher or lower amounts depending on the total amount of sponsors that a team has. This query can also be used in determining possible relationships between the number of sponsors and player performance or salary.
 
 ### Query 7
 
@@ -249,7 +249,7 @@ This query is useful in detemining which teams not only have a low amount of spo
 
 Query 7 lists the teams in the league that do not have a Facebook account along with their average sponsor amounts. This is shown through a new "AverageSponsorAmount" column.
 
-This query can mainly be used to understand the relationship between the amount that a team recieves from sponsors on average and the social media accounts they have, specifically Facebook. This could lead to possible claims that having an increased social media presence through more accounts can lead to higher sponsor amounts.
+This query can mainly be used to understand the relationship between the amount that a team receives from sponsors on average and the social media accounts they have, specifically Facebook. This could lead to possible claims that having an increased social media presence through more accounts can lead to higher sponsor amounts.
 
 ### Query 8
 
@@ -257,7 +257,7 @@ This query can mainly be used to understand the relationship between the amount 
 
 Query 8 shows the amount of teams that held a practice on September 2nd, 2023.
 
-This is a more simplified query showing us the teams that held a practice on a specific date, in this case September 2nd, 2023. This query can easily be altered to different dates to see which teams have held practices on specific dates. This information can also be used to establish trends based on teams that prefer to hold practice on specific dates.
+This is a more simplified query showing us the teams that held a practice on a specific date, in this case, September 2nd, 2023. This query can easily be altered to different dates to see which teams have held practices on specific dates. This information can also be used to establish trends based on teams that prefer to hold practice on specific dates.
 
 ### Query 9
 
@@ -265,7 +265,7 @@ This is a more simplified query showing us the teams that held a practice on a s
 
 Query 9 locates and lists the Head Coach for the Falcons team.
 
-This query can be used mainly to identify the leader for the Falcons team. This query can also be altered depending on what team you're looking to find the head coach for. Mostly this would be use for getting in contact with specific team leaders.
+This query can be used mainly to identify the leader of the Falcons team. This query can also be altered depending on what team you're looking to find the head coach for. Mostly this would be used for getting in contact with specific team leaders.
 
 ### Query 10
 
@@ -273,8 +273,8 @@ This query can be used mainly to identify the leader for the Falcons team. This 
 
 Query 10 lists all of the different teams that Subway has sponsored. The results are listed under a newly created "TeamsSponsored" column.
 
-This query can be mainly used for Subway, a popular sponsor for the teams, to identify the number of teams that they've sponsored so far in the league. This data can be used when determining if the sponsor should be collaborating with more or less teams in the league.
-## Databse Information
+This query can be mainly used for Subway, a popular sponsor for the teams, to identify the number of teams that they've sponsored so far in the league. This data can be used when determining if the sponsor should be collaborating with more or fewer teams in the league.
+## Database Information
 
 #### Database Name: cs_g5p1
 
