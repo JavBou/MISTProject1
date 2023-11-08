@@ -30,48 +30,63 @@ Certainly! As the owner/operator of a football club, here's an overview of my bu
 Players:
 Attributes: Player ID, Name, Position, Date of Birth, Nationality
 - Relationships: Many-to-One with Contracts, Many-to-Many with Teams
+
 Teams:
 - Attributes: Team ID, Team Name, Coach ID, Formation
 - Relationships: One-to-Many with Players, One-to-Many with Matches
+
 Coaches:
 - Attributes: Coach ID, Name, Specialization, Nationality
 - Relationships: One-to-Many with Teams, One-to-Many with Training Sessions
+
 Matches:
 - Attributes: Match ID, Date, Time, Location, Opponent Team ID, Result
 - Relationships: Many-to-Many with Teams
+
 Stadiums:
 - Attributes: Stadium ID, Stadium Name, Location, Capacity
 - Relationships: One-to-Many with Matches
+
 Contracts:
 - Attributes: Contract ID, Player ID, Team ID, Start Date, End Date, Salary
 - Relationships: Many-to-One with Players, Many-to-One with Teams
+
 Sponsors:
 - Attributes: Sponsor ID, Sponsor Name, Sponsorship Amount, Duration
 - Relationships: Many-to-Many with Teams
+
 Injuries:
 - Attributes: Injury ID, Player ID, Date, Type, Status
 - Relationships: Many-to-One with Players
+
 Training Sessions:
 - Attributes: Session ID, Coach ID, Team ID, Date, Time
 - Relationships: Many-to-One with Coaches, Many-to-One with Teams
+
 Scouting Reports:
 - Attributes: Report ID, Scout ID, Player ID, Date, Notes
 - Relationships: Many-to-One with Players
+
 Fan Clubs:
 - Attributes: Fan Club ID, Club Name, President, Number of Members
 - Relationships: Many-to-Many with Matches
+
 Jersey Kits:
 - Attributes: Kit ID, Team ID, Home Color, Away Color, Sponsor Logo
 - Relationships: One-to-Many with Teams
+
 Social Media Accounts:
 - Attributes: Account ID, Team ID, Platform, Username, Followers
 - Relationships: One-to-Many with Teams
+
 Medical Staff:
 - Attributes: Staff ID, Name, Position, Contact Information
 - Relationships: Many-to-Many with Players
+
 Travel Itineraries:
 - Attributes: Itinerary ID, Team ID, Departure Date, Return Date, Destination
 - Relationships: One-to-Many with Teams
+
 These entities and their relationships should provide a solid foundation for the MIST 4610 class to design a relational database that meets the requirements of my football club.
 
 ### Our Response
