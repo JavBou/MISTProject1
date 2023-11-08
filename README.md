@@ -205,7 +205,7 @@ This query allows for coaches and other team administrators to know which player
 
 ### Query 2
 
-![Query 2]()
+![Query 2](https://i.imgur.com/Oza9qr9.png)
 
 Query 2 lists all of the players who play in the Quarterback position that have suffered a knee injury. Their current injury status is also displayed.
 
