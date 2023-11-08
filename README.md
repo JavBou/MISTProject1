@@ -209,7 +209,7 @@ This query allows for coaches and other team administrators to know which player
 
 Query 2 lists all of the players who play in the Quarterback position that have suffered a knee injury. Their current injury status is also displayed.
 
-This query is extreemly useful in finding commonalities between player's positions and the injuries that they sustain during their games. Moreover, it's useful because, as coaches, viewing the quarterbacks with knee injuries is critical in determining who will play in specific games.
+This query is extremely useful in finding commonalities between player's positions and the injuries that they sustain during their games. Moreover, it's useful because, as coaches, viewing the quarterbacks with knee injuries is critical in determining who will play in specific games.
 
 ### Query 3
 
